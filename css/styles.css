@@ -1,0 +1,92 @@
+  body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 3.5%;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  .logo {
+    margin: 5%;
+  }
+
+  .row {
+    margin: 0;
+    padding: 0 5%;
+  }
+
+  .heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
+  .text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: #F8F8FF;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    border-radius: 2rem !important;
+    padding: .7rem 3.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+
+  .social {
+    position: absolute;
+    bottom: -4rem;
+    right: 0px;
+    font-size: xx-large;
+    width: 110px;
+  }
+
+  .social-icon {
+    padding-right: 2%;
+  }
+
+  @media screen and (max-width: 375px) {
+    body {
+    }
+    .logo {
+      margin: 7%;
+      width: 35%;
+    }
+    .social {
+      left: 7rem;
+      right: 0;
+    }
+    .illustration{
+      width: 100%;
+    }
+    .heading {
+      font-size: 1.5rem;
+    }
+    .text {
+      font-size: 1rem;
+    }
+    .col-lg-5 {
+      margin-top: 15%;
+      text-align: center;
+    }
+    .attribution {
+      margin-top: 20%; 
+    }
+    .btn {
+      padding: 0.3em 3.5rem;
+    }
+  }
